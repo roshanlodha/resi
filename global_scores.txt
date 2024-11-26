@@ -1,8 +1,8 @@
 {
     "mgh": {
-        "prestige": 1500,
-        "vibes": 750,
-        "location": 1250
+        "prestige": 1469.7036868864648,
+        "vibes": 748.2963131135352,
+        "location": 1251.7036868864648
     },
     "ucsf": {
         "prestige": 1500,
@@ -10,8 +10,8 @@
         "location": 1500
     },
     "ccf": {
-        "prestige": 1000,
-        "vibes": 1250,
-        "location": 750
+        "prestige": 1030.2963131135352,
+        "vibes": 1251.7036868864648,
+        "location": 748.2963131135352
     }
 }
