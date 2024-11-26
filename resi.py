@@ -12,7 +12,7 @@ def save_global_scores(master_score_list):
     with open("global_scores.txt", "w") as file:
         json.dump(master_score_list, file, indent=4)
 
-def update_scores_by_dimension(program1, program2, winner, dimension, k_factor=32, use_global_scores):
+def update_scores_by_dimension(program1, program2, winner, dimension, k_factor=32, use_global_scores=False):
     """
     Updates scores for a specific dimension (e.g., prestige, vibes, location).
     If use_global_scores is True, updates global scores in master_score_list as well.
