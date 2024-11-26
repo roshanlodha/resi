@@ -1,0 +1,17 @@
+{
+    "mgh": {
+        "prestige": 1500,
+        "vibes": 750,
+        "location": 1250
+    },
+    "ucsf": {
+        "prestige": 1500,
+        "vibes": 1000,
+        "location": 1500
+    },
+    "ccf": {
+        "prestige": 1000,
+        "vibes": 1250,
+        "location": 750
+    }
+}
