@@ -1,17 +1,1872 @@
 {
-    "mgh": {
-        "prestige": 1469.7036868864648,
-        "vibes": 748.2963131135352,
-        "location": 1251.7036868864648
-    },
-    "ucsf": {
-        "prestige": 1500,
+    "Brookwood Baptist Health": {
+        "prestige": 1000,
         "vibes": 1000,
-        "location": 1500
+        "location": 1000
+    },
+    "University of Alabama": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of South Alabama": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "HonorHealth": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Valleywise Health (formerly Maricopa)": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "St. Joseph's": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Arizona": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Arizona- South": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Arkansas": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Alameda Health System": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Arrowhead Regional Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "California Pacific Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Cedars-Sinai": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Eisenhower Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Huntington Memorial Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Kaiser-Northern California": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Kaiser-Southern California": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Kern": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Loma Linda": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Los Angeles County/Harbor UCLA": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Olive View, UCLA": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Riverside Community Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "San Joaquin General Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Santa Barbara Cottage Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Santa Clara Valley Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Scripps Green Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Scripps Mercy Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "St. Mary Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "St. Mary's Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Stanford": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "UCLA": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "UCSF Fresno": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "UC Davis": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "UC Irvine": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "UC San Diego": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "UC San Francisco": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "UC Riverside": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "USC": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "White Memorial Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Parkview Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Saint Joseph Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Colorado": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Bridgeport Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Conneticut Institue for Communities": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Danbury Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Greenwich Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Griffin Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Norwalk Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "St. Vincent's Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Stamford Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Uconnecticut School of Medicine": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Yale ": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Sidney Kimmel/Thomas Jefferson": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "George Washington University ": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Georgetown University": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Howard University": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Washington Hospital Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Aventura Hospital ": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Blake Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Brandon Regional Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Broward Health Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Cleveland Clinic Florida": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Florida Atlantic University ": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Florida Hospital Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Florida State University ": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Jackson Memorial Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Kendall Regional Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Largo Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Mayo Clinic Florida": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Mount Sinai Florida": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Northside Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Oak Hill Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Orange Park Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Orlando Health": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Central Florida": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Florida": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Miami-FL": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Univeristy of Miami/JFK": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of South Florida": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Athens Regional Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Augusta University": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Emory University": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Gwinnet Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Medical Center of Central Georgia/Mercer": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Medical College of Georgia": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Memorial Health": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Morehouse": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Redmond Regional Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "WellStar Atlanta": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "WellStar Kennestone": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Kaiser Permanente Hawaii": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Hawaii": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Boise with Uwash": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Advocate Illinois Masonic Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Rosalind Franklin": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Northwestern Medicine": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Franciscan St. James Health": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "John Stoger": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Louis Weiss Memorial Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Loyola University": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "MacNeal Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "McGaw Medical Center of Northwestern": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Mercy Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Mount Sinai Chicago": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Prsence St. Francis": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Presence St. Joseph": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Rush University": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Southern Illinois ": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Swedish Covenenat Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Chicago": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Unversity of Illinois": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Illinois": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "West Suburban Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Indiana University": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "St. Vincent Hospitals": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Central Iowa Health System": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Iowa Medical Education Collaborative": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Iowa": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Kansas": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Kentucky": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Louisville": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Baton Rouge General Medical Center ": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "LSU Health Sciences Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Leonard Chabert Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Louisana State University": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Oschner Clinic Foundation": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Tulane ": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "LSU-Lafayette": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Maine Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Greater Baltimore Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Harbor Hospital Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Johns Hopkins-Osler": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Johns Hopkins-Bayview": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Prince George's Hospital Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Sinai Hospital of Baltimore": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "St. Agnes Healthcare": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Union Memorial Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Maryland-Midtown": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Maryland ": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Berkshire Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Beth Israel Deaconess": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Boston University Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Brigham and Women's Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Cambridge Health Alliance": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Lahey Clinic": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Massachusetts General": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "MetroWest Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Mount Auburn Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Salem Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "St. Elizabeth's Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "St. Vincent Hospital ": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Steward Carney Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Tufts": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "UMMS": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Massachusetts": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Botsford Hospital ": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Central Michigan University": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Detroit Medical Center-Commerce": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Detroit Medical Center- Downtown": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Garden City Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Genesys Regional Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Spectrum Health": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Henry Ford Allegiance": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Henry Ford Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Henry Ford Macomb": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Hurley Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "McLaren": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "McLaren Oakland": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Mercy Health": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Metro Health Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Michigan State University College of Human Medicine": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Oakwood Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Providence Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "St. John Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "St. Joseph Mercy": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "St. Joseph Mercy Ann Arbor": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "St. Mary Mercy": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "St. John Macomb": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Univeristy of Michigan": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Wayne State University": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Western Michigan University": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "William Beaumont Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Abbott": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Hennepin County Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Mayo Clinic  ": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Minnesota": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Magnolia Regional Health Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Mississippi": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Kansas City University": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "SSM St. Mary's": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "St. Louis University SOM": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "St. Luke's Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Missouri": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Univeristy of Missouri": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Washington University of St. Louis": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Billings Clinic": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Creighton University": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Nebraska": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Mountain View Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Valley Hospital Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Nevada": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Dartmouth (Mary Hitchcock Memorial Hospital)": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Atlantic Health": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Capital Health Regional": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Cooper University Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Hackensack UMC Mountainside": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Jersey Shore Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Monmouth Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "New York Medical College": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Newark Beth Israel": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Jersey City Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Raritan Bay Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Rutgers New Jersey": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Rutgers Robert Wood Johnson": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Saint Peter's University Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "St. Francis ": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "St. Barnabas": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Trinitas": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of New Mexico": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Albany Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Bassett Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Bronx Care": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Brookdale University Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Brooklyn Hospital Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Coney Island Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Flushing Hospital Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Harlem Hospital Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Hofstra Northwell School of Medicine- Lennox Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Hofstra Northwell School of Medicine- Long Island Jewish Forest Hills": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Hofstra Northwell School of Medicine- Mather Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Hofstra Northwell School of Medicine- North Shore University Hospital & Long Island Jewish Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Hofstra Northwell School of Medicine- Staten Island University Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Ichann School of Medicine": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Interfaith Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Jamaica Hospital Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Kingsbrook Jewish Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Lincoln Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Maimonides Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Montefiore/Albert Einstein-Moses Campus": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Montefiore/Albert Einstein-New Rochelle": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Montefiore/Albert Einstein- Wakefield": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Nassau University Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "New York Methodist": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "New York Presbyterian-Manhattan/Cornell": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "New York Presbyterian- Columbia SOM": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "New York Presbyterian-Cornell SOM": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "New York University SOM": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Richmond University Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Rochester General Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Rochester Regional/Unity Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "SUNY Downstate": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "SUNY Upstate": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Samaritan Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "St. John Episcopal Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "St. John's Riverside Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Stony Brook Medicine": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Strong Memorial Hospital of the University of Rochester": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Buffalo": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Buffalo- Catholic Health": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Winthrop Hospital with NYU": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Woodhull Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Wyckhoff Heights Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Carolinas HealthCare System Blue Ridge": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Carolinas Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Cone Health": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Duke University Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "New Hanover Regional Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of North Carolina": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Vidant Medical Center/East Carolina University": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Wake Forest University": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of North Dakota": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Akron General Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Canton Medical Education Foundation": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Case Western Reserve": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Christ Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Cleveland Clinic  ": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Doctors Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Fairview Hospital- Cleveland Clinic": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Jewish Hospital of Cincinnati": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Kettering Health Network": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Mercy St. Vincent": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Metro Health Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Mount Carmel Health System": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Ohio State University": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "RiverSide Methodist Hospitals": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "St. Elizabeth Youngstown": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "St. Vincent Charity Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Summa Health System": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "TriHealth": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Cincinnati": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Toledo": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Western Health Reserve": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Wright State University": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Oklahoma State University": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Oklahoma College of Medicine": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Oklahoma School of Community Medicine": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Legacy Emanuel Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Oregon Health and Science University Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Providence Health & Services": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Providence St. Vincent ": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Abington Memorial Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Albert Einstein Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Allegheny Health Network": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Conemaugh Memorial Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Crozer": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Easton Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Geisinger Health System": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Heart of Lancaster Regional Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Lehigh Valley Health Network": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Main Line Health System": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Nazareth Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Penn State": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Pennsylvania Hospital/Upenn": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Pennsylvania College of Osteopathic Medicine": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Pinnacle Health Hospitals": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Reading Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Robert Packer Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Suburban Community Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Temple University Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "UPMC Mercy": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "UPMC McKeesport": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Upenn": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Wright Center for Graduate Medical Education": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "York Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Brown University": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Kent Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Memorial Hospital of Rhode Island": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Roger Williams Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Grand Strand Regional Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Greenville Health System/University of South Carolina": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Medical University of South Carolina": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Palmetto Health": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of South Dakota": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "East Tennessee State University": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Meharry Medical College": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Tennessee": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Tennessee- Chattanooga": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Tennessee- Knoxville": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Vanderbilt University": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Baylor College of Medicine": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Baylor Scott and White/Texas A&M": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Methodist Health System ": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Methodist Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Plaza Medical Cente of Forth Worth": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Texas Health Presbyterian": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Texas Tech University": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Texas Health Science Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Texas Medical Branch": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Texas Rio Grande Valley": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Texas Southwestern Medical School": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Texas at Austin": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Utah": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Vermont Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Carilion Clinic/Virginia Tech": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Eastern Virginia Medical School": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Inova Fairfax Medical Campus": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Norton Community Hospital": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Virginia Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Virginia Commonwealth University": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Spokane Teaching Health Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Washington": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Virginia Mason ": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Charleston Area Medical Center": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Marshall University School of Medicine": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "West Virginia University School of Medicine": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Aurora Health Care": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Gundersun Lutheran Medical Foundation": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Marshfield Clinic": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "Medical College of Wisconsin": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "University of Wisconsin": {
+        "prestige": 1000,
+        "vibes": 1000,
+        "location": 1000
+    },
+    "cclcm": {
+        "prestige": 954.1721796717983,
+        "vibes": 954.1721796717983,
+        "location": 986.1721796717983
     },
     "ccf": {
-        "prestige": 1030.2963131135352,
-        "vibes": 1251.7036868864648,
-        "location": 748.2963131135352
+        "prestige": 1016.6379609136212,
+        "vibes": 1016.6379609136212,
+        "location": 983.1653712536178
+    },
+    "mgh": {
+        "prestige": 1045.7639514588463,
+        "vibes": 1045.7639514588463,
+        "location": 1045.8311705509368
+    },
+    "ucsf": {
+        "prestige": 983.425907955734,
+        "vibes": 983.425907955734,
+        "location": 984.8312785236473
     }
 }

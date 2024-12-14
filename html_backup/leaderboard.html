@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Global Leaderboard</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Global Leaderboard</h1>
+
+        <div class="form-section">
+            <h2>Adjust Weights</h2>
+            <label for="weight-prestige">Prestige: </label>
+            <input type="range" id="weight-prestige" min="0" max="1" step="0.1" value="0.5" onchange="updateLeaderboard()">
+            <span id="weight-prestige-value">0.50</span>
+            <br>
+            <label for="weight-vibes">Vibes: </label>
+            <input type="range" id="weight-vibes" min="0" max="1" step="0.1" value="0.2" onchange="updateLeaderboard()">
+            <span id="weight-vibes-value">0.20</span>
+            <br>
+            <label for="weight-location">Location: </label>
+            <input type="range" id="weight-location" min="0" max="1" step="0.1" value="0.3" onchange="updateLeaderboard()">
+            <span id="weight-location-value">0.30</span>
+        </div>
+
+        <h2>Global Rankings</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Program</th>
+                    <th>Prestige</th>
+                    <th>Vibes</th>
+                    <th>Location</th>
+                    <th>Overall Score</th>
+                </tr>
+            </thead>
+            <tbody id="global-rankings"></tbody>
+        </table>
+
+        <script>
+            const dimWeights = { prestige: 0.5, vibes: 0.2, location: 0.3 };
+            let globalScores = {};
+
+            // Fetch global scores
+            fetch("global_scores.txt")
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! Status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    globalScores = data;
+                    console.log("Global Scores Loaded:", globalScores);
+                    updateLeaderboard();
+                })
+                .catch(error => console.error("Failed to load global scores:", error));
+
+            // Update leaderboard rankings
+            function updateLeaderboard() {
+                for (const dimension in dimWeights) {
+                    const slider = document.getElementById(`weight-${dimension}`);
+                    const valueSpan = document.getElementById(`weight-${dimension}-value`);
+                    dimWeights[dimension] = parseFloat(slider.value);
+                    valueSpan.textContent = slider.value;
+                }
+
+                const rankingsTable = document.getElementById("global-rankings");
+                rankingsTable.innerHTML = "";
+
+                const rankList = Object.keys(globalScores)
+                    .map(program => ({
+                        program,
+                        prestige: globalScores[program].prestige,
+                        vibes: globalScores[program].vibes,
+                        location: globalScores[program].location,
+                        score: calculateOverallScore(globalScores[program]),
+                    }))
+                    .sort((a, b) => b.score - a.score);
+
+                rankList.forEach((entry, index) => {
+                    const row = document.createElement("tr");
+                    row.innerHTML = `
+                        <td>${index + 1}</td>
+                        <td>${entry.program}</td>
+                        <td>${entry.prestige.toFixed(2)}</td>
+                        <td>${entry.vibes.toFixed(2)}</td>
+                        <td>${entry.location.toFixed(2)}</td>
+                        <td>${entry.score.toFixed(2)}</td>
+                    `;
+                    rankingsTable.appendChild(row);
+                });
+            }
+
+            // Calculate Overall Score
+            function calculateOverallScore(scores) {
+                return (
+                    scores.prestige * dimWeights.prestige +
+                    scores.vibes * dimWeights.vibes +
+                    scores.location * dimWeights.location
+                );
+            }
+        </script>
+    </body>
+</html>

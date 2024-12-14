@@ -11,16 +11,20 @@
 
     <div class="form-section">
         <label for="program-name">Add a new program:</label>
-        <input type="text" id="program-name" placeholder="Program name">
+        <input type="text" id="program-name" placeholder="Program name" list="program-options">
+        <datalist id="program-options">
+            <!-- Options will be dynamically populated -->
+        </datalist>
         <button onclick="addNewProgram()">Add Program</button>
     </div>
+    
 
     <div class="form-section">
         <label for="upload-scores">Upload local scores:</label>
         <input type="file" id="upload-scores" accept=".json" onchange="uploadLocalScores(event)">
     </div>
 
-    <div class="form-section">
+    <div id="compare-form" class="form-section">
         <label for="compare-dimension">Compare programs for:</label>
         <select id="compare-dimension">
             <option value="prestige">Prestige</option>
@@ -32,8 +36,6 @@
         <select id="program1"></select>
         <label for="program2">Program 2:</label>
         <select id="program2"></select>
-        <br><br>
-        <button onclick="comparePrograms()">Compare</button>
     </div>
 
     <div class="form-section">
@@ -51,6 +53,14 @@
         <span id="weight-location-value">0.30</span>
     </div>
 
+    <div id="compare-modal" class="modal">
+        <div class="modal-content">
+            <p id="compare-question"></p>
+            <button id="option1-button" onclick="selectWinner('option1')"></button>
+            <button id="option2-button" onclick="selectWinner('option2')"></button>
+        </div>
+    </div>
+    
     <h2>Current Rankings</h2>
     <table>
         <thead>

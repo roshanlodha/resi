@@ -4,14 +4,33 @@ let globalScores = {};
 const dimWeights = { prestige: 0.5, vibes: 0.2, location: 0.3 };
 const defaultScore = { prestige: 1000, vibes: 1000, location: 1000 };
 
-// Initialize globalScores from file
-fetch("global_scores.json")
-    .then(response => response.json())
+// Fetch global scores and populate the dropdown
+fetch("global_scores.txt")
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json(); // Parse as JSON
+    })
     .then(data => {
         globalScores = data;
-        console.log("Loaded global scores:", globalScores);
+        populateProgramOptions(); // Populate the datalist with program names
+        updateRankings(); // Update rankings table if needed
     })
     .catch(error => console.error("Failed to load global scores:", error));
+
+// Populate the datalist for the searchable dropdown
+function populateProgramOptions() {
+    const datalist = document.getElementById("program-options");
+    datalist.innerHTML = ""; // Clear existing options
+
+    // Add an <option> for each program
+    for (const program in globalScores) {
+        const option = document.createElement("option");
+        option.value = program; // Use program name as the value
+        datalist.appendChild(option);
+    }
+}
 
 // Add New Residency Program
 function addNewProgram() {
@@ -26,20 +45,20 @@ function addNewProgram() {
         if (!globalScores[programName]) {
             globalScores[programName] = { ...defaultScore };
         }
-        //updateProgramOptions();
-        
 
+        updateProgramOptions();
         alert(`${programName} added successfully!`);
 
         // Automatically compare with existing programs
-        for (const existingProgram in localScores) {
-            if (existingProgram !== programName) {
-                for (const dimension of Object.keys(dimWeights)) {
-                    const winner = prompt(`Which program is better for ${dimension}? Enter '${programName}' or '${existingProgram}':`);
-                    if (winner === programName || winner === existingProgram) {
-                        updateScoresByDimension(programName, existingProgram, localScores, winner, dimension);
-                        updateScoresByDimension(programName, existingProgram, globalScores, winner, dimension);
-                    }
+        for (const dimension of Object.keys(dimWeights)) {
+            for (const existingProgram in localScores) {
+                if (existingProgram !== programName) {
+                    showComparisonModal(dimension, programName, existingProgram);
+                    // const winner = prompt(`Which program is better for ${dimension}? Enter '${programName}' or '${existingProgram}':`);
+                    // if (winner === programName || winner === existingProgram) {
+                    //     updateScoresByDimension(programName, existingProgram, localScores, winner, dimension);
+                    //     updateScoresByDimension(programName, existingProgram, globalScores, winner, dimension);
+                    // }
                 }
             }
         }
@@ -49,6 +68,37 @@ function addNewProgram() {
     }
 
     document.getElementById("program-name").value = "";
+}
+
+let currentComparison = {}; // To store details of the current comparison
+
+function showComparisonModal(dimension, program1, program2) {
+    currentComparison = { dimension, program1, program2 }; // Store details
+
+    // Update modal content
+    document.getElementById("compare-question").textContent = 
+        `Which program is better for ${dimension}?`;
+    document.getElementById("option1-button").textContent = program1;
+    document.getElementById("option2-button").textContent = program2;
+
+    // Show the modal
+    document.getElementById("compare-modal").style.display = "block";
+}
+
+function selectWinner(option) {
+    const { dimension, program1, program2 } = currentComparison;
+
+    const winner = option === "option1" ? program1 : program2;
+
+    // Update scores
+    updateScoresByDimension(program1, program2, localScores, winner, dimension);
+    updateScoresByDimension(program1, program2, globalScores, winner, dimension);
+
+    // Hide the modal
+    document.getElementById("compare-modal").style.display = "none";
+
+    // Continue with the next steps, e.g., update rankings
+    updateRankings();
 }
 
 // Update program options in the comparison dropdowns
@@ -137,7 +187,9 @@ function uploadLocalScores(event) {
             updateRankings();
         };
         reader.readAsText(file);
+        updateRankings();
     }
+    updateRankings();
 }
 
 // Download Local Scores
